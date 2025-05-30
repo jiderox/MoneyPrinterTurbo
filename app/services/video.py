@@ -156,8 +156,8 @@ def combine_videos(
                 break
 
     # random subclipped_items order
-    if video_concat_mode.value == VideoConcatMode.random.value:
-        random.shuffle(subclipped_items)
+    #if video_concat_mode.value == VideoConcatMode.random.value:
+    #    random.shuffle(subclipped_items)
         
     logger.debug(f"total subclipped items: {len(subclipped_items)}")
     
